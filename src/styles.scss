@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+body {
+  margin: 0;
+  font-family: Nunito Sans;
+  font-size: 16px/22px;
+}
+
+/* Fonts */
+$font-noir-light: "noir-light";
+$font-noir-regular: "noir-regular";
+$font-noir-semi-bold: "noir-semi-bold";
+$font-noir-bold: "noir-bold";
+
+@font-face {
+  font-family: "noir-light";
+  src: url("./assets/fonts/NoirPro-Light.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "noir-regular";
+  src: url("./assets/fonts/NoirPro-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "noir-semi-bold";
+  src: url("./assets/fonts/NoirPro-SemiBold.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "noir-bold";
+  src: url("./assets/fonts/NoirPro-Bold.otf");
+  font-weight: normal;
+  font-style: normal;
+}
