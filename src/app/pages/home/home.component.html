@@ -142,10 +142,13 @@
         src="../../../assets/funias-white-logo.svg"
         alt="Logo Funias"
       >
-      <a class="habeas">| Habeas data</a>
+      <a
+        class="habeas"
+        [routerLink]="'/politicas-de-privacidad'"
+      >| Políticas de privacidad</a>
       <a
         class="terms"
-        href=""
+        [routerLink]="'/terminos-y-condiciones'"
       >| Términos y condiciones</a>
     </div>
   </section>

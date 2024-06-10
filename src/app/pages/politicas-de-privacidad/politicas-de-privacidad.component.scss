@@ -1,0 +1,74 @@
+@import "../../../styles.scss";
+
+.politicas-de-privacidad {
+  font-family: $font-noir-regular;
+  width: 100%;
+  overflow: hidden;
+  .funias-triangle {
+    position: absolute;
+    top: 0;
+    width: 65vw;
+    right: 0;
+  }
+  .concept-container {
+    padding: 100px 110px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(
+      --degradado,
+      linear-gradient(
+        180deg,
+        #114c74 0%,
+        #145377 6.57%,
+        #1c6781 36.44%,
+        #298890 63.04%,
+        #3cb6a6 85.13%,
+        #40c1ab 100%
+      )
+    );
+    .funias-logo {
+      margin-top: 3rem;
+    }
+    .back-home {
+      font-size: 2vw;
+      margin-bottom: 2.5rem;
+      color: white;
+      text-decoration: none;
+    }
+    .back-home:hover {
+      text-decoration: underline;
+    }
+    .text-container {
+      margin-top: 5rem;
+      h2 {
+        margin-top: 299px;
+        margin-bottom: 3rem;
+        text-transform: uppercase;
+        font-family: $font-noir-regular;
+        color: white;
+        font-size: 2.5vw;
+        font-weight: 500;
+        margin: 0;
+        text-align: center;
+        span {
+          color: #40c1ab;
+        }
+      }
+      h3 {
+        font-size: 2vw;
+        margin-top: 4rem;
+      }
+      p {
+        font-size: 1.4vw;
+        text-align: justify;
+      }
+      h4 {
+        margin-top: 3rem;
+        margin-bottom: 0;
+        font-size: 1.6vw;
+      }
+    }
+  }
+}
